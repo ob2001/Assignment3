@@ -3,6 +3,4 @@
 *.tar
 *.pdf
 decades
-displayBabies
 babyQuery
-displayBabies.c
