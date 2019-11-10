@@ -1,0 +1,7 @@
+*.o
+*.gz
+*.tar
+*.pdf
+decades
+babyQuery
+*.html
