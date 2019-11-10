@@ -123,6 +123,8 @@ int main (int argc, char *argv[]){
       i++;
       k++;
     }
+    k++;
+    tempMNum[k] = '\0';
     removeCommas(tempMNum);
     nameInfo.maleNumber[j] = atoi(tempMNum);
     for(l = 0; l < 50; l++){
@@ -144,6 +146,8 @@ int main (int argc, char *argv[]){
       i++;
       k++;
     }
+    k++;
+    tempFNum[k] = '\0';
     removeCommas(tempFNum);
     nameInfo.femaleNumber[j] = atoi(tempFNum);
     for(l = 0; l < 50; l++){

@@ -11,5 +11,8 @@ babyQuery.o: babyQuery.c
 funcs.o: funcs.c
 	$(CC) $(CFLAGS) -c funcs.c
 
+removeCommas.o: removeCommas.c
+		$(CC) $(CFLAGS) -c removeCommas.c
+
 clean:
 	-rm babyQuery.o funcs.o babyQuery
