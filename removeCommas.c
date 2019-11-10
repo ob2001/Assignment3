@@ -19,6 +19,5 @@ int removeCommas(char *line){
     }
     i++;
   }
-
   return(numCommas);
 }
