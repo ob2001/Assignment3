@@ -15,4 +15,4 @@ removeCommas.o: removeCommas.c
 		$(CC) $(CFLAGS) -c removeCommas.c
 
 clean:
-	-rm babyQuery.o funcs.o babyQuery
+	-rm *.o babyQuery
